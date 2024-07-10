@@ -1,5 +1,7 @@
 import { useTranslations } from "next-intl";
-import Image from "next/image";
+import { Header } from "../_components/Header";
+import { Section } from "../_components/Section";
+import { Spacing } from "../_components/Spacing";
 
 
 
@@ -9,9 +11,15 @@ export default function Home() {
 
   return (
     <main>
-      <h1>{t("Header.title")}</h1>
-      <p>{t("Header.subtitle")}</p>
-      <Image src="/logo.svg" alt="Logo" width={100} height={100} />
+
+      <Header />
+      <Spacing size="md" />
+      <Section>
+        <h1>{t("Header.title")}</h1>
+        <p>{t("Header.subtitle")}</p>
+      </Section>
+      <div className=" h-96 bg-white w-full"></div>
+
     </main>
   );
 }
