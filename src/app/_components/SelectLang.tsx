@@ -64,6 +64,10 @@ const SelectLang = () => {
                 e.preventDefault();
                 setOption(option);
               }}
+              onTouchStart={(e) => {
+                setOption(option);
+              }
+              }
 
               onClick={() => { setIsOptionsExpanded(false); setOption(option); }}
               value={option.code}
