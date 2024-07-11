@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Badge } from "../../components/ui/badge";
-
+import justeez from "./assets/img/justeez.png";
+import timelapps from "./assets/img/logo-vertical-blanc.png";
 export const WORKS: WorkProps[] = [
     {
         image: "data:image/png;base64,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",
@@ -20,17 +21,33 @@ export const WORKS: WorkProps[] = [
     {
         image: "https://idprotect.fr/wp-content/uploads/2023/04/id_protectLogo-1.png",
         title: "ID Protect",
-        role: "Développeur Back end",
-        date: "2022 2023",
+        role: "Développeur Back End",
+        date: "2023 2023",
         url: "https://idprotect.fr/",
         freelance: true,
     },
     {
-        image: "https://www.timelapps.fr/images/logo.png",
+        image: justeez.src,
+        title: "Justeez",
+        role: "Développeur Full Stack",
+        date: "2023 2023",
+        url: "https://justeez-demo.vercel.app/",
+        freelance: true,
+    },
+    {
+        image: "data:image/png;base64,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",
+        title: "Tickie",
+        role: "Développeur Full Stack",
+        date: "2022 2023",
+        url: "https://tickie.io/",
+        freelance: true,
+    },
+    {
+        image: timelapps.src,
         title: "Timelapps",
         role: "Développeur Full Stack",
         date: "2021 2022",
-        url: "https://idprotect.fr/"
+        url: "https://timelapps.fr/"
     },
     {
         //image: "https://pub.mdpi-res.com/img/design/mdpi-pub-logo-black-small1.svg?da3a8dcae975a41c?1712928559",
@@ -57,7 +74,7 @@ export const Work = (props: WorkProps) => {
         >
             <div className="inline-flex flex-1 justify-center bg-accent w-auto p-1 rounded-sm">
                 <span className="bg-foreground text-accent-foreground p-0.5 rounded-sm">
-                    <img src={props.image} alt={props.title} className=" w-full object-contain" />
+                    <img src={props.image} alt={props.title} className=" w-full object-contain bg-background" />
                 </span>
             </div>
 
