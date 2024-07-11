@@ -11,10 +11,83 @@
     },
     "Hero": {
       "name": "Hamid BASSAM",
-      "title": "Ingénieur Logiciel",
+      "title": "Ingénieur Informatique",
       "keywords": "Positivité, Humilité, pas de limites",
       "living": "Vivant à ",
       "city": "Mulhouse"
+    },
+    "SideProjects": {
+      "title": "Projets secondaires, amusants",
+      "Projects": {
+        "SwapBot": {
+          "title": "SwapBot pour Injective sur Telegram",
+          "description": "Faciliter les échanges de cryptomonnaies sécurisés et directs via Telegram, en utilisant des smart contrats sur la blockchain Injective pour une automatisation complète et efficace."
+        },
+        "BuyBot": {
+          "title": "BuyBot pour Injective sur Telegram",
+          "description": "Un bot automatisé qui notifie les transactions de swap d'INJ, affichant en temps réel les quantités échangées, le nouveau market cap et d'autres données de marché pertinentes sur un canal Telegram dédié."
+        },
+        "WheelEazy": {
+          "title": "WheelEazy",
+          "description": "Market place de location de velo entre particuliers pour moyenne et longue durée."
+        },
+        "TailwindGenAI": {
+          "title": "Tailwind-Gen-AI",
+          "description": "Application Next.js intégrant le SDK Vercel et les librairies OpenAI pour convertir les prompts utilisateurs en pages web responsives. Utilise Tailwind CSS pour un design élégant et adaptatif."
+        },
+        "DoFlex": {
+          "title": "DoFlex",
+          "description": "Gestion d'objectif sous forme de mindmap. En cours de contruction, DoFlex permettra de visualiser et de gérer ses objectifs personnels et professionnels de manière intuitive et efficace."
+        },
+        "Portfolio": {
+          "title": "Portfolio",
+          "description": "Portfolio personnel pour présenter mes compétences et mes projets"
+        }
+      }
+    },
+    "Work": {
+      "title": "Expérience professionnelle",
+      "productEngineer": "Ingénieur Produit",
+      "fullStackDeveloper": "Développeur Full Stack",
+      "backEndDeveloper": "Développeur Back-End",
+      "javaDeveloper": "Développeur Java",
+      "freelance": "Mission"
+    },
+    "Contact": {
+      "title": "Contactez-moi",
+      "intro": "Je serai ravi de collaborer avec vous",
+      "LinkedIn": {
+        "user": "@hamid-bassam",
+        "title": "Ingénieur Informatique"
+      },
+      "Instagram": {
+        "user": "@hamid.bassam.7",
+        "title": "🇲🇦☮️💟💻🎓🎸🎼🥂🏐🎾🎮🪶🥇"
+      },
+      "Email": {
+        "user": "@hamid.bassam.147@gmail.com",
+        "title": "Envoyez-moi un email pour toute demande"
+      }
+    },
+    "Hobby": {
+      "title": "Centres d'interêt"
+    },
+    "Skills": {
+      "title": "Compétences",
+      "Ilike": "J'aime bosser avec...",
+      "aiIntegration": "Integration d'IA",
+      "main": "Mon framework principal est",
+      "also": "J'utilise aussi",
+      "as": "comme un framework frontend et backend",
+      "iCan": "Je peux créer des ",
+      "beautiful": "belles",
+      "and": "et",
+      "responsive": "responsives",
+      "applications": "applications en utilisant",
+      "iLearn": "J'apprend à integrer l'IA dans mes applications pour créer la parfaite",
+      "ux": "experience utilisateur",
+      "iUse": "J'utilise",
+      "forThat": "pour cela"
     }
   }
 }

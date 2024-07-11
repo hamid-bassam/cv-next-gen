@@ -15,6 +15,79 @@
       "keywords": "Positivity, Limitless, Humility",
       "living": "Living in ",
       "city": "Mulhouse"
+    },
+    "SideProjects": {
+      "title": "Side, fun projects",
+      "Projects": {
+        "SwapBot": {
+          "title": "SwapBot for Injective on Telegram",
+          "description": "Facilitate secure and direct cryptocurrency exchanges via Telegram, using smart contracts on the Injective blockchain for complete and efficient automation."
+        },
+        "BuyBot": {
+          "title": "BuyBot for Injective on Telegram",
+          "description": "An automated bot that notifies INJ swap transactions, displaying real-time exchange quantities, new market cap, and other relevant market data on a dedicated Telegram channel."
+        },
+        "WheelEazy": {
+          "title": "WheelEazy",
+          "description": "A peer-to-peer bicycle rental marketplace for medium to long-term durations."
+        },
+        "TailwindGenAI": {
+          "title": "Tailwind-Gen-AI",
+          "description": "A Next.js application integrating Vercel SDK and OpenAI libraries to convert user prompts into responsive web pages. Utilizes Tailwind CSS for an elegant and adaptive design."
+        },
+        "DoFlex": {
+          "title": "DoFlex",
+          "description": "Goal management through mind mapping. Currently under construction, DoFlex will enable users to visualize and manage their personal and professional goals in an intuitive and efficient manner."
+        },
+        "Portfolio": {
+          "title": "Portfolio",
+          "description": "Personal portfolio to showcase my skills and projects.Personal portfolio to showcase my skills and projects.Personal portfolio to showcase my skills and projects.Personal portfolio to showcase my skills and projects."
+        }
+      }
+    },
+    "Work": {
+      "title": "Work experience",
+      "productEngineer": "Product Engineer",
+      "fullStackDeveloper": "Full Stack Developer",
+      "backEndDeveloper": "Back-End Developer",
+      "javaDeveloper": "Java Developer",
+      "freelance": "Freelance"
+    },
+    "Contact": {
+      "title": "Contact me",
+      "intro": "I will be glad to collaborate with you",
+      "LinkedIn": {
+        "user": "@hamid-bassam",
+        "title": "Software Engineer"
+      },
+      "Instagram": {
+        "user": "@hamid.bassam.7",
+        "title": "🇲🇦☮️💟💻🎓🎸🎼🥂🏐🎾🎮🪶🥇"
+      },
+      "Email": {
+        "user": "@hamid.bassam.147@gmail.com",
+        "title": "Email me for any inquiry"
+      }
+    },
+    "Hobby": {
+      "title": "Hobbies"
+    },
+    "Skills": {
+      "title": "Skills",
+      "Ilike": "I like working on...",
+      "aiIntegration": "AI Integration",
+      "main": "My main framework is",
+      "also": "I also use",
+      "as": "as a backend annd frontend framework",
+      "iCan": "I can create",
+      "beautiful": "beautiful",
+      "and": "and",
+      "responsive": "responsive",
+      "applications": "applications using ",
+      "iLearn": "I learn to integrate AI to my applications to create a perfect",
+      "ux": "user experience",
+      "iUse": "I use",
+      "forThat": "for that"
     }
   }
 }
