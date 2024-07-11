@@ -19,48 +19,7 @@ export const Status = () => {
 
     return (
         <Section className="flex max-md:flex-col items-start gap-4">
-            <div className="flex-[2] w-full flex flex-col gap-4">
-                <Card className=" flex-[2] p-4 w-full flex flex-col gap-2">
-                    <p className="text-lg font-extrabold text-muted-foreground">{t("SideProjects.title")}</p>
-                    <div className="flex w-full flex-col gap-5">
-                        {SIDE_PROJECTS.map((project, index) => (
 
-                            <SideProject
-                                key={index}
-                                {...project}
-                            />
-                        ))}
-                    </div>
-
-
-                </Card>
-                <Card className=" flex-[2] p-4 w-full flex flex-col gap-2 ">
-                    <p className="text-lg font-extrabold text-muted-foreground">{t("Hobby.title")}</p>
-
-                    <CardContainer className="inter-var w-full h-full  max-w-sm flex-[1]  items-center gap-2 p-0  m-auto">
-
-                        <CardBody className=" relative group/card  dark:hover:shadow-md dark:hover:shadow-emerald-500/[0.1] h-full  ">
-                            <CardItem
-                                as="div"
-                                translateZ="100"
-                                className="flex  flex-col w-full  gap-4 items-center"
-                            >
-                                {/*  */}
-                                <div className="flex flex-wrap min-h-10 h-full w-full self-start items-center space-y-2 space-x-8">
-                                    {HOBBIES.map((h, i) => (
-                                        <Hobby key={i} hobby={h.hobby} src={h.src} cn={h.cn} />
-                                    ))}
-
-                                </div>
-                                {/*  */}
-                            </CardItem>
-                        </CardBody>
-                    </CardContainer>
-                </Card>
-
-
-
-            </div>
             {/*<div className="flex-1"></div>*/}
             <div className="flex-[2] w-full flex flex-col gap-4">
                 <Card className="p-4 flex-1 flex flex-col gap-2 pb-3">
@@ -93,6 +52,50 @@ export const Status = () => {
                     />
 
                 </Card>
+            </div>
+
+
+            <div className="flex-[2] w-full flex flex-col gap-4">
+                <Card className=" flex-[2] p-4 w-full flex flex-col gap-2">
+                    <p className="text-lg font-extrabold text-muted-foreground">{t("SideProjects.title")}</p>
+                    <div className="flex w-full flex-col gap-5">
+                        {SIDE_PROJECTS.map((project, index) => (
+
+                            <SideProject
+                                key={index}
+                                {...project}
+                            />
+                        ))}
+                    </div>
+
+
+                </Card>
+                <Card className=" flex-[2] p-4 w-full flex flex-col gap-2 ">
+                    <p className="text-lg font-extrabold text-muted-foreground">{t("Hobby.title")}</p>
+
+                    <CardContainer className="inter-var w-full h-full  max-w-sm flex-[1]  items-center gap-2 p-0  m-auto">
+
+                        <CardBody className=" relative group/card  dark:hover:shadow-md dark:hover:shadow-emerald-500/[0.1] h-full  ">
+                            <CardItem
+                                as="div"
+                                translateZ="100"
+                                className="flex  flex-col w-full  gap-4 items-center"
+                            >
+                                {/*  */}
+                                <div className="flex flex-wrap min-h-10 h-full w-full self-start items-center space-y-2 md:space-x-8 max-md:gap-2">
+                                    {HOBBIES.map((h, i) => (
+                                        <Hobby key={i} hobby={h.hobby} src={h.src} cn={h.cn} />
+                                    ))}
+
+                                </div>
+                                {/*  */}
+                            </CardItem>
+                        </CardBody>
+                    </CardContainer>
+                </Card>
+
+
+
             </div>
         </Section>
     )
