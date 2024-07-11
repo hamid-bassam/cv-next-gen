@@ -1,9 +1,12 @@
 import { useTranslations } from "next-intl";
 import { unstable_setRequestLocale } from "next-intl/server";
+import { Contact } from "../_components/Contact";
+import { Footer } from "../_components/Footer";
 import { Header } from "../_components/Header";
 import { Hero } from "../_components/Hero";
 import { Section } from "../_components/Section";
 import { Spacing } from "../_components/Spacing";
+import { Status } from "../_components/Status";
 
 
 
@@ -24,7 +27,12 @@ export default function Home({ params: { locale } }: { params: { locale: string 
       <Spacing size="md" />
       <Hero />
       <Spacing size="md" />
-      <div className=" h-96 bg-white w-full"></div>
+      <Status />
+      <Spacing size="md" />
+      <Contact />
+      <Spacing size="md" />
+
+      <Footer />
 
     </main>
   );
