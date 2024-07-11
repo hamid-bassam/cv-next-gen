@@ -8,6 +8,13 @@
       "title": "Select Language",
       "english": "English",
       "french": "French"
+    },
+    "Hero": {
+      "name": "Hamid BASSAM",
+      "title": "Software Engineer",
+      "keywords": "Positivity, Limitless, Humility",
+      "living": "Living in ",
+      "city": "Mulhouse"
     }
   }
 }
