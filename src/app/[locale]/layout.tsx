@@ -6,6 +6,7 @@ import { Anek_Telugu } from "next/font/google";
 import { notFound } from "next/navigation";
 import "../../app/globals.css";
 import { cn } from "../../lib/utils";
+import { unstable_setRequestLocale } from "next-intl/server";
 
 
 interface RootLayoutProps {
@@ -37,6 +38,7 @@ export default async function RootLayout({
     console.error('Failed to load messages:', error);
     notFound()
   }
+  unstable_setRequestLocale(locale);
   return (
     <html lang={locale}>
       <body className={cn(GeistSans.variable,
