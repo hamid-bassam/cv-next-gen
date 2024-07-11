@@ -10,6 +10,8 @@ import { useTranslations } from "next-intl";
 import Image, { StaticImageData } from "next/image";
 import { useParams, usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
+import { buttonVariants } from "../../components/ui/button";
+import { cn } from "../../lib/utils";
 import gbFlag from "./assets/img/english_flag.png";
 import frFlag from "./assets/img/french_flag.png";
 
@@ -45,7 +47,7 @@ const SelectLang = () => {
 
   return (
     <Select value={params.locale}>
-      <SelectTrigger className="w-16 max-md:h-4 h-8">
+      <SelectTrigger className={cn(buttonVariants({ variant: "outline" }), "w-16 max-md:h-4 h-8")} >
         <Image
           src={options.find((option) => option.code === params.locale)?.flag || gbFlag}
           width={"20"}

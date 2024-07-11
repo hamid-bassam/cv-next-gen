@@ -5,6 +5,7 @@ import { Footer } from "../_components/Footer";
 import { Header } from "../_components/Header";
 import { Hero } from "../_components/Hero";
 import { Section } from "../_components/Section";
+import { Skills } from "../_components/Skills";
 import { Spacing } from "../_components/Spacing";
 import { Status } from "../_components/Status";
 
@@ -28,6 +29,8 @@ export default function Home({ params: { locale } }: { params: { locale: string 
       <Hero />
       <Spacing size="md" />
       <Status />
+      <Spacing size="md" />
+      <Skills />
       <Spacing size="md" />
       <Contact />
       <Spacing size="md" />
