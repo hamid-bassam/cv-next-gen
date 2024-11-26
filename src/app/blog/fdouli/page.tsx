@@ -13,9 +13,9 @@ export default function Home() {
 
       {/* Message personnalisé */}
       <div className="text-center space-y-4">
-        <div className="text-3xl font-extrabold">Vous êtes curieux, hein ?</div>
+        <div className="text-3xl font-extrabold">SI Aw LALA LFDOULIA  ?</div>
         <div className="text-lg text-card">
-          (C’est ici que vous pouvez écrire un message humoristique ou inspirant pour vos utilisateurs.)
+          (MALK FDOULI(A) ??)
         </div>
         <button
           className="mt-6 px-6 py-3 bg-card text-primary font-semibold rounded-lg shadow hover:bg-white hover:text-primary-dark transition"
