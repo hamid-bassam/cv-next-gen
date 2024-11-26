@@ -19,7 +19,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
   return (
     <main>
 
-      <Header />
+      <Header select={true} />
       <Spacing size="md" />
       <Section>
         <h1>{t("Header.title")}</h1>

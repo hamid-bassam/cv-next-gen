@@ -11,7 +11,7 @@ import SelectLang from "./SelectLang";
 
 
 
-export const Header = () => {
+export const Header = (props: { select: boolean }) => {
 
 
     return (
@@ -22,7 +22,7 @@ export const Header = () => {
                 <div className="flex-1" >
                 </div>
                 <ul className="flex items-center gap-2  ">
-                    <SelectLang />
+                    {props.select === false ? <> </> : <SelectLang />}
 
                     <Link href="https://github.com/hamid-bassam" className={cn(buttonVariants({ variant: "outline" }), "size-8 max-md:size-4 p-0")}>
                         <GithubIcon size={12} className="text-foreground" />
