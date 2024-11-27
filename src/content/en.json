@@ -14,7 +14,12 @@
       "title": "Software Engineer",
       "keywords": "Positivity, Limitless, Humility",
       "living": "Living in ",
-      "city": "Mulhouse"
+      "city": "Mulhouse",
+      "Dialog": {
+        "title": "Download CV",
+        "description": "Than you for coming here, my lastest CV is available !",
+        "button": "Download"
+      }
     },
     "SideProjects": {
       "title": "Side, fun projects",

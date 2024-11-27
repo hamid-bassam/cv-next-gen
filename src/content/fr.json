@@ -14,7 +14,12 @@
       "title": "Ingénieur Informatique",
       "keywords": "Positivité, Humilité, pas de limites",
       "living": "Vivant à ",
-      "city": "Mulhouse"
+      "city": "Mulhouse",
+      "Dialog": {
+        "title": "Téléchargez mon CV",
+        "description": "Merci d'être arrivé jusqu'ici, mon cv est disponible au téléchargement.",
+        "button": "Télécharger"
+      }
     },
     "SideProjects": {
       "title": "Projets secondaires, amusants",
