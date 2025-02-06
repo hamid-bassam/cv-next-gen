@@ -1,8 +1,8 @@
 {
   "Home": {
     "Header": {
-      "title": "Bienvenue sur mon site",
-      "subtitle": "Je suis un développeur web et ingénieur informatique. Ce portfolio est en cours de construction ... restez à l'écoute !"
+      "title": "Bienvenue sur mon portfolio",
+      "subtitle": "Construire, expérimenter, itérer : voici comment j’innove."
     },
     "SelectLanguage": {
       "title": "Sélectionnez la langue",
@@ -14,7 +14,7 @@
       "title": "Ingénieur Informatique",
       "keywords": "Positivité, Humilité, pas de limites",
       "living": "Vivant à ",
-      "city": "Mulhouse",
+      "city": "Strasbourg",
       "Dialog": {
         "title": "Téléchargez mon CV",
         "description": "Merci d'être arrivé jusqu'ici, mon cv est disponible au téléchargement.",
@@ -24,6 +24,14 @@
     "SideProjects": {
       "title": "Projets secondaires, amusants",
       "Projects": {
+        "HbalTrbah": {
+          "title": "HbalTrbah",
+          "description": "HbalTrbah est bien plus qu’une plateforme : c’est un état d’esprit. Conçue pour repousser les limites de la créativité et de l’ambition, elle mélange l’art, la technologie et le storytelling. Elle incarne le voyage de ceux qui osent défier les normes, transformer les échecs en opportunités et constamment chercher l’inspiration pour évoluer."
+        },
+        "TimeForgeApp": {
+          "title": "Time Forge App",
+          "description": "TimeForge est une application de gestion du temps et de suivi de la productivité conçue pour optimiser l’organisation personnelle et professionnelle. Avec une interface intuitive et des outils analytiques puissants, elle permet aux utilisateurs de visualiser les activités quotidiennes et de prendre des décisions éclairées pour une meilleure gestion du temps."
+        },
         "SwapBot": {
           "title": "SwapBot pour Injective sur Telegram",
           "description": "Faciliter les échanges de cryptomonnaies sécurisés et directs via Telegram, en utilisant des smart contrats sur la blockchain Injective pour une automatisation complète et efficace."
@@ -63,14 +71,14 @@
       "intro": "Je serai ravi de collaborer avec vous",
       "LinkedIn": {
         "user": "@hamid-bassam",
-        "title": "Ingénieur Informatique"
+        "title": "Développeur Full Stack | Leadership Technique et Collaboration"
       },
       "Instagram": {
         "user": "@hamid.bassam.7",
-        "title": "🇲🇦☮️💟💻🎓🎸🎼🥂🏐🎾🎮🪶🥇"
+        "title": "🇲🇦 ☮️ 💟 💻 🎓 🎸 🎼 🥂 🏐 🎾 🎮 🪶 🥇"
       },
       "Email": {
-        "user": "@hamid.bassam.147@gmail.com",
+        "user": "hamid.bassam.147@gmail.com",
         "title": "Envoyez-moi un email pour toute demande"
       }
     },

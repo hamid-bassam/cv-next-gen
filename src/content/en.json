@@ -14,7 +14,7 @@
       "title": "Software Engineer",
       "keywords": "Positivity, Limitless, Humility",
       "living": "Living in ",
-      "city": "Mulhouse",
+      "city": "Strasbourg",
       "Dialog": {
         "title": "Download CV",
         "description": "Thank you for coming here, my lastest CV is available !",
@@ -24,6 +24,15 @@
     "SideProjects": {
       "title": "Side, fun projects",
       "Projects": {
+        "HbalTrbah": {
+          "title": "Hbal Trbah",
+          "description": "HbalTrbah is more than a platform; it’s a mindset. Designed to push the boundaries of creativity and ambition, it blends art, technology, and storytelling. It embodies the journey of those who dare to challenge norms, turn failures into opportunities, and continuously seek inspiration to grow."
+        },
+        "TimeForge App": {
+          "title": "TimeForgeApp",
+          "description": "TimeForge is a time management and productivity tracking application designed to optimize personal and professional organization. With an intuitive interface and powerful analytical tools, it allows users to visualize daily activities and make informed decisions for better time management."
+        },
+
         "SwapBot": {
           "title": "SwapBot for Injective on Telegram",
           "description": "Facilitate secure and direct cryptocurrency exchanges via Telegram, using smart contracts on the Injective blockchain for complete and efficient automation."
@@ -63,14 +72,14 @@
       "intro": "I will be glad to collaborate with you",
       "LinkedIn": {
         "user": "@hamid-bassam",
-        "title": "Software Engineer"
+        "title": "Software Engineer | Technical Leadership and Collaboration | Progressing to Strategic Roles"
       },
       "Instagram": {
         "user": "@hamid.bassam.7",
-        "title": "🇲🇦☮️💟💻🎓🎸🎼🥂🏐🎾🎮🪶🥇"
+        "title": "🇲🇦 ☮️ 💟 💻 🎓 🎸 🎼 🥂 🏐 🎾 🎮 🪶 🥇"
       },
       "Email": {
-        "user": "@hamid.bassam.147@gmail.com",
+        "user": "hamid.bassam.147@gmail.com",
         "title": "Email me for any inquiry"
       }
     },

@@ -29,6 +29,9 @@ const SelectLang = () => {
   const t = useTranslations("Home.SelectLanguage");
   const router = useRouter();
   const pathname = usePathname();
+  const list = pathname.split("/");
+  const length = list.length;
+  const location = list[length - 1];
 
   const [isOptionsExpanded, setIsOptionsExpanded] = useState(false);
   const params = useParams<{ locale: string }>()
@@ -41,7 +44,7 @@ const SelectLang = () => {
 
   const setOption = (option: Option) => {
     setIsOptionsExpanded(false);
-    router.push(`/${option.code}`);
+    router.push(`/${option.code}/${location}`);
   };
 
 

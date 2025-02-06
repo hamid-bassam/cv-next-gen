@@ -1,5 +1,4 @@
 import { useTranslations } from "next-intl";
-import Link from "next/link";
 import { Badge } from "../../components/ui/badge";
 import justeez from "./assets/img/justeez.png";
 import timelapps from "./assets/img/logo-vertical-blanc.png";
@@ -17,7 +16,7 @@ export const WORKS: WorkProps[] = [
         title: "Inetum",
         role: "fullStackDeveloper",
         date: "2023 2024",
-        url: "https://inetum.com/"
+        url: "https://dev-courses.sportsolidr.com/"
     },
     {
         image: "https://idprotect.fr/wp-content/uploads/2023/04/id_protectLogo-1.png",
@@ -71,11 +70,12 @@ type WorkProps = {
 export const Work = (props: WorkProps) => {
     const t = useTranslations("Home.Work");
     return (
-        <Link
+        <a target="_blank" rel="noopener noreferrer"
+
             href={`${props.url ?? "https://www.linkedin.com/in/hamid-bassam-802334207/"}`}
             className="inline-flex items-center gap-4 hover:bg-accent/50 transition-colors p-1 rounded "
         >
-            <div className="inline-flex flex-1 justify-center bg-accent w-auto p-1 rounded-sm">
+            <div className="inline-flex flex-1 justify-cen  ter bg-accent w-auto p-1 rounded-sm">
                 <span className="bg-foreground text-accent-foreground p-0.5 rounded-sm">
                     <img src={props.image} alt={props.title} className=" w-full object-contain bg-background" />
                 </span>
@@ -91,6 +91,6 @@ export const Work = (props: WorkProps) => {
             <div className="ml-auto flex-1">
                 <p className="text-xs text-muted-foreground text-end">{props.date}</p>
             </div>
-        </Link>
+        </a>
     );
 };
