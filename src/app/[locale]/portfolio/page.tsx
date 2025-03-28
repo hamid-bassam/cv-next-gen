@@ -33,7 +33,6 @@ export default function Home({ params: { locale } }: { params: { locale: string 
       </Section>
       <Spacing size="md" />
       <Status />
-
       <Spacing size="md" />
       <Skills />
       <Spacing size="md" />

@@ -29,7 +29,13 @@ export const Hero = () => {
                 <h2 className="font-caption font-bold text-3xl text-primary">{t("name")}</h2>
                 <h3 className="text-2xl font-caption">{t('title')}</h3>
                 <p className="font-bold text-base">{t('keywords')}</p>
-                <p className="text-[0.8rem]">{t('living')}<Code className=""><img className="w-5 h-auto mr-1 inline-flex" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSG24QVtqDWYqBksVSyK1yULlQWKw_HXQ853vdS-3M5dwS_n4MdgL35AF2WfI&s=10" alt="France"></img>{t('city')}</Code></p>
+                <p className="text-[0.8rem]">{t('living')}
+                    <Code className="">
+                        {/* <img className="w-5 h-auto mr-1 inline-flex" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSG24QVtqDWYqBksVSyK1yULlQWKw_HXQ853vdS-3M5dwS_n4MdgL35AF2WfI&s=10" alt="France"></img> */}
+                        <img className="w-5 h-auto mr-1 inline-flex" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbAA7WKpxLrxl45FWQ7_AzUlcrM0uNDKtqqQ&s" alt="Belgique"></img>
+                        {t('city')}
+                    </Code>
+                </p>
 
             </div>
 

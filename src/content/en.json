@@ -1,8 +1,8 @@
 {
   "Home": {
     "Header": {
-      "title": "Welcome to my site",
-      "subtitle": "I'm a web developer and software engineer. This portfolio is in progress ... stay tuned!"
+      "title": "Welcome to my Portfolio",
+      "subtitle": "Build, experiment, iterate: this is how I innovate."
     },
     "SelectLanguage": {
       "title": "Select Language",
@@ -14,7 +14,7 @@
       "title": "Software Engineer",
       "keywords": "Positivity, Limitless, Humility",
       "living": "Living in ",
-      "city": "Strasbourg",
+      "city": "Bruxelles",
       "Dialog": {
         "title": "Download CV",
         "description": "Thank you for coming here, my lastest CV is available !",
@@ -92,16 +92,24 @@
       "aiIntegration": "AI Integration",
       "main": "My main framework is",
       "also": "I also use",
-      "as": "as a backend annd frontend framework",
+      "as": "as a backend and frontend framework",
       "iCan": "I can create",
       "beautiful": "beautiful",
       "and": "and",
       "responsive": "responsive",
+      "toBuildQuickly": "to quickly build interfaces that are ",
+      "clean": "clean",
+      "adaptative": "adaptative",
+      "focusOnUX": "while remaining focused on the user experience.",
       "applications": "applications using ",
       "iLearn": "I learn to integrate AI to my applications to create a perfect",
       "ux": "user experience",
       "iUse": "I use",
-      "forThat": "for that"
+      "forThat": "for that",
+      "itAllStarted": "It all started with",
+      "thenIAdopted": "Then I adopted",
+      "toStructure": "to structure full stack applications ",
+      "combining": "— combining SSG, SSR, API routes."
     }
   }
 }

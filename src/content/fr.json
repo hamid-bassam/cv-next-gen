@@ -14,7 +14,7 @@
       "title": "Ingénieur Informatique",
       "keywords": "Positivité, Humilité, pas de limites",
       "living": "Vivant à ",
-      "city": "Strasbourg",
+      "city": "Bruxelles",
       "Dialog": {
         "title": "Téléchargez mon CV",
         "description": "Merci d'être arrivé jusqu'ici, mon cv est disponible au téléchargement.",
@@ -96,11 +96,19 @@
       "beautiful": "belles",
       "and": "et",
       "responsive": "responsives",
+      "toBuildQuickly": "pour construire rapidement des interfaces ",
+      "clean": "soignées",
+      "adaptative": "adaptatives",
+      "focusOnUX": "tout en restant focus sur l’expérience utilisateur.",
       "applications": "applications en utilisant",
       "iLearn": "J'apprend à integrer l'IA dans mes applications pour créer la parfaite",
       "ux": "experience utilisateur",
       "iUse": "J'utilise",
-      "forThat": "pour cela"
+      "forThat": "pour cela",
+      "itAllStarted": "Tout a commencé avec ",
+      "thenIAdopted": "Puis j'ai adopté",
+      "toStructure": "pour structurer des applications full stack ",
+      "combining": "— combinant SSG, SSR, API routes."
     }
   }
 }

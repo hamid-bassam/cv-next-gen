@@ -34,6 +34,7 @@ export const ProfilImageDialogTrigger = () => {
         </div>
 
         <DialogFooter>
+
           <Button asChild>
 
             <a

@@ -2,7 +2,6 @@
 import { Bike, Bitcoin, CircleAlert, Clock3, CodeXml, Infinity as Inf, ListTodo, LucideIcon, SquareUserRound } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
-import { Button } from "../../components/ui/button";
 
 
 
@@ -68,7 +67,7 @@ export const SideProject = (props: SideProjectProps) => {
                 <span className="bg-accent text-accent-foreground p-3 rounded-sm">
                     <props.logo />
                 </span>
-                <div className="relative w-full min-h-[6rem] h-full group max-sm:hidden">
+                {/* <div className="relative w-full min-h-[6rem] h-full group max-sm:hidden">
                     <div className="absolute inset-0 flex items-center justify-center transition-opacity duration-600 ease-in-out opacity-0 group-hover:opacity-100">
                         <Button variant={"secondary"}>Nouveau Contenu</Button>
                     </div>
@@ -78,6 +77,10 @@ export const SideProject = (props: SideProjectProps) => {
                     </div>
                 </div>
                 <div className="hidden max-sm:flex flex-col gap-2">
+                    <p className="text-sm font-semibold">{t(props.title)}</p>
+                    <p className="text-[0.7rem] text-muted-foreground">{t(props.description)}</p>
+                </div> */}
+                <div className="flex flex-col gap-2">
                     <p className="text-sm font-semibold">{t(props.title)}</p>
                     <p className="text-[0.7rem] text-muted-foreground">{t(props.description)}</p>
                 </div>

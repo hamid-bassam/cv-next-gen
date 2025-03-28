@@ -24,7 +24,7 @@ export const Skills = () => {
                     <h3 className="text-2xl font-semibold tracking-tight ">
                         React
                     </h3>
-                    <p className="text-sm text-muted-foreground">
+                    {/* <p className="text-sm text-muted-foreground">
                         {t("main")} <Code>
                             <ReactIcon size={10} className="inline-flex mr-1 animate-spin" />
                             React
@@ -34,6 +34,18 @@ export const Skills = () => {
                             <NextJsIcon size={10} className="inline-flex mr-1" />
                             Next.js
                         </Code> {t('as')}.
+                    </p> */}
+                    <p className="text-sm text-muted-foreground">
+                        {t("itAllStarted")} <Code>
+                            <ReactIcon size={10} className="inline-flex mr-1 animate-spin" />
+                            React
+                        </Code>
+                        . {t("thenIAdopted")}
+                        <Code className="inline-flex items-center mx-1">
+                            <NextJsIcon size={10} className="inline-flex mr-1" />
+                            Next.js
+                        </Code>{t('as')} {t('toStructure')} {t('combining')}
+
                     </p>
                 </div>
 
@@ -42,8 +54,16 @@ export const Skills = () => {
                     <h3 className="text-2xl font-semibold tracking-tight ">
                         Tailwind
                     </h3>
-                    <p className="text-sm text-muted-foreground">
+                    {/* <p className="text-sm text-muted-foreground">
                         {t('iCan')} <u>{t('beautiful')}</u> {t("and")} <u>{t("responsive")}</u> {t("applications")} <Code className="inline-flex items-center"><TailwindCssIcon size={10} className=" mr-1" />TailwindCSS</Code>.
+                    </p> */}
+                    <p className="text-sm text-muted-foreground">
+                        {t('iUse')}
+                        <Code className="inline-flex items-center mx-1">
+                            <TailwindCssIcon size={10} className=" mr-1" />
+                            TailwindCSS
+                        </Code>
+                        {t('toBuildQuickly')}<u>{t("clean")}</u> {t("and")} <u>{t("adaptative")}</u> {t("focusOnUX")}
                     </p>
                 </div>
 

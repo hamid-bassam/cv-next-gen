@@ -1,6 +1,5 @@
 import { useTranslations } from "next-intl";
 import { Badge } from "../../components/ui/badge";
-import justeez from "./assets/img/justeez.png";
 import timelapps from "./assets/img/logo-vertical-blanc.png";
 export const WORKS: WorkProps[] = [
     {
@@ -34,21 +33,21 @@ export const WORKS: WorkProps[] = [
         url: "https://idprotect.fr/",
         freelance: true,
     },
-    {
-        image: justeez.src,
-        title: "Justeez",
-        role: "fullStackDeveloper",
-        date: "2020 2023",
-        url: "https://justeez-demo.vercel.app/",
-        freelance: true,
-    },
+    // {
+    //     image: justeez.src,
+    //     title: "Justeez",
+    //     role: "fullStackDeveloper",
+    //     date: "2020 2023",
+    //     url: "https://justeez-demo.vercel.app/",
+    //     freelance: true,
+    // },
 
     {
         image: timelapps.src,
         title: "Timelapps",
         role: "fullStackDeveloper",
         date: "2019 2023",
-        url: "https://timelapps.fr/"
+        url: "https://justeez-demo.vercel.app/"
     },
     {
         //image: "https://pub.mdpi-res.com/img/design/mdpi-pub-logo-black-small1.svg?da3a8dcae975a41c?1712928559",
