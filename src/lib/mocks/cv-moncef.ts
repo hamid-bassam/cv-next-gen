@@ -41,20 +41,23 @@ export const mockData: CVData = {
     },
   ],
   skills: [
-    "Rédaction de spécifications fonctionnelles",
-    "Animation d'ateliers métiers & recueil des besoins",
-    "Gestion du backlog Agile & SAFe",
-    "Analyse de Business Case et cadrage stratégique",
-    "Coordination de la recette fonctionnelle et validation des tests",
-    "Pilotage du déploiement produit et suivi KPI",
-  ],
+    {
+      category: "Fonctionnelles", skills: [
+        { name: "Rédaction de spécifications fonctionnelles" },
+        { name: "Animation d'ateliers métiers & recueil des besoins" },
+        { name: "Gestion du backlog Agile & SAFe" },
+        { name: "Analyse de Business Case et cadrage stratégique" },
+        { name: "Coordination de la recette fonctionnelle et validation des tests" },
+        { name: "Pilotage du déploiement produit et suivi KPI" },
+      ]
+    }],
   tools: ["JIRA", "Figma", "Tableau (BI)", "Python", "Deep Learning / Keras", "LangChain", "LLM AI"],
-  certifications: [
-    "Google UX Design Professional Certificate - 2023",
-    "Generative AI with Large Language Models - 2023",
-    "Scrum Master Certification - 2023",
-    "Deep Learning Specialization - 2020",
-  ],
+  certifications: [],
+  //   "Google UX Design Professional Certificate - 2023",
+  //   "Generative AI with Large Language Models - 2023",
+  //   "Scrum Master Certification - 2023",
+  //   "Deep Learning Specialization - 2020",
+  // ],
   education: [
     {
       degree: "MSc in Artificial Intelligence",
