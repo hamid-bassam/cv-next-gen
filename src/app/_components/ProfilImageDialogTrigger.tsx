@@ -38,7 +38,7 @@ export const ProfilImageDialogTrigger = () => {
           <Button asChild>
 
             <a
-              href="CV_Hamid_BASSAM.pdf"
+              href="/CV_Hamid_BASSAM.pdf"
               download="CV_Hamid_BASSAM.pdf"
               className="ml-2 "
             >
