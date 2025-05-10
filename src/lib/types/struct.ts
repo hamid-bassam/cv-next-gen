@@ -8,7 +8,9 @@ export type CVData = {
   email: string;
   phone: string;
   linkedin?: string;
-  summary?: string;
+  // portfolio?: string;
+  summary?: string | string[];
+  endQuote?: string;
   experiences: Experience[];
   skills: SkillSection[];
   certifications: Certification[];
@@ -20,7 +22,11 @@ export type CVData = {
   projects?: Project[];
   awards?: Award[];
   contact?: Contact;
-  hobbies?: { theme: string; hobby: Hobby }[];
+  // hobbies?: { theme: string; hobby: Hobby }[];
+  hobbies?: Hobby[];
+  showSide?: boolean;
+  showHobbies?: boolean;
+
 };
 
 export type Experience = {
@@ -64,7 +70,18 @@ export type Language = {
 export type Project = {
   title: string;
   description: string;
-  technologies: string[];
+  features?: string[];
+  technologies?: string[];
+  images?: { src: string; alt: string; display: 'desktop' | 'mobile' }[];
+  impact?: string[];
+  status?: 'completed' | 'in-progress' | 'abandoned';
+  link?: string;
+  repository?: string;
+  layout?: { [key: string]: any }; // ReactPDF.Style
+  right?: { [key: string]: any };
+  splitAll?: boolean; // define the layout ( title desc + split or split first )
+  splitRatio?: number;
+  invert?: boolean;
 };
 
 export type Award = {
@@ -82,4 +99,5 @@ export type Contact = {
 export type Hobby = {
   name: string;
   description: string;
+  iconUrl?: string;
 };
