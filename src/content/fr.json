@@ -14,7 +14,7 @@
       "title": "Ingénieur Informatique",
       "keywords": "Positivité, Humilité, pas de limites",
       "living": "Vivant à ",
-      "city": "Strasbourg",
+      "city": "Paris",
       "Dialog": {
         "title": "Téléchargez mon CV",
         "description": "Merci d'être arrivé jusqu'ici, mon cv est disponible au téléchargement.",
@@ -31,6 +31,10 @@
         "TimeForgeApp": {
           "title": "Time Forge App",
           "description": "TimeForge est une application de gestion du temps et de suivi de la productivité conçue pour optimiser l’organisation personnelle et professionnelle. Avec une interface intuitive et des outils analytiques puissants, elle permet aux utilisateurs de visualiser les activités quotidiennes et de prendre des décisions éclairées pour une meilleure gestion du temps."
+        },
+        "ApplyFlow": {
+          "title": "ApplyFlow",
+          "description": "Plateforme SAAS de gestion des candidatures tech, conçue pour rationaliser et optimiser le processus de candidature."
         },
         "SwapBot": {
           "title": "SwapBot pour Injective sur Telegram",

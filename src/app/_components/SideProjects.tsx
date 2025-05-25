@@ -1,5 +1,5 @@
 "use client"
-import { Bike, Bitcoin, CircleAlert, Clock3, CodeXml, Infinity as Inf, ListTodo, LucideIcon, SquareUserRound } from "lucide-react";
+import { Bitcoin, CircleAlert, Clock3, CodeXml, Infinity as Inf, ListTodo, LucideIcon, Send, SquareUserRound } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 
@@ -10,11 +10,19 @@ export const SIDE_PROJECTS: SideProjectProps[] = [
         logo: Inf,
         title: "HbalTrbah.title",
         description: "HbalTrbah.description",
+        url: "https://hbaltrbah.com/"
     },
     {
         logo: Clock3,
         title: "TimeForgeApp.title",
         description: "TimeForgeApp.description",
+        url: "https://hbaltrbah.com/time-forge-app/"
+    },
+    {
+        logo: Send,
+        title: "ApplyFlow.title",
+        description: "ApplyFlow.description",
+        url: "https://apply-flow.vercel.app/live-mode"
     },
     {
         logo: SquareUserRound,
@@ -31,11 +39,11 @@ export const SIDE_PROJECTS: SideProjectProps[] = [
         title: "BuyBot.title",
         description: "BuyBot.description"
     },
-    {
-        logo: Bike,
-        title: "WheelEazy.title",
-        description: "WheelEazy.description",
-    },
+    // {
+    //     logo: Bike,
+    //     title: "WheelEazy.title",
+    //     description: "WheelEazy.description",
+    // },
     {
         logo: CodeXml,
         title: "TailwindGenAI.title",
@@ -45,7 +53,8 @@ export const SIDE_PROJECTS: SideProjectProps[] = [
     {
         logo: ListTodo,
         title: "DoFlex.title",
-        description: "DoFlex.description"
+        description: "DoFlex.description",
+        url: "https://dev-do-flex.vercel.app/"
     }
 
 ];
