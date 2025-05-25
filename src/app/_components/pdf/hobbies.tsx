@@ -42,10 +42,20 @@ const HobbyItem = ({ hobby }: { hobby: Hobby }) => {
         <Image src={hobby.iconUrl} style={{ width: 12, height: 12 }} />
         <Text style={styles.hobbyTitle}>{hobby.name}</Text>
       </View>
-
-      <Text style={styles.hobbyText}>
-        {hobby.description}
-      </Text>
+      {hobby.bullet && hobby.bullet.length > 0 && (
+        <View style={{ marginBottom: 4 }}>
+          {hobby.bullet.map((item, index) => (
+            <Text key={index} style={styles.hobbyText}>
+              • {item}
+            </Text>
+          ))}
+        </View>
+      )}
+      {!hobby.bullet &&
+        <Text style={styles.hobbyText}>
+          {hobby.description}
+        </Text>
+      }
     </View>
 
   );

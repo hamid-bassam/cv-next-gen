@@ -8,6 +8,7 @@ import qrcode from "./icons/qr-portfolio.png";
 import xp from "./icons/xp.png";
 import HobbyItem from "./pdf/hobbies";
 import SideProjectCard from "./pdf/sideProject";
+import TimeTrackingCard from "./pdf/TimeTracking";
 
 const safeSplitText = (text: string, maxWordsPerLine = 13) => {
   if (!text) return [];
@@ -269,7 +270,7 @@ const StyledCVDocument = ({ data }: { data: CVData }) => {
         <Text style={styles.header}>{data.name}</Text>
         <Text style={styles.position}>{data.position} | {data.location}</Text>
         <Text style={styles.subHeader}>{data.email} | {data.phone} {data.linkedin ? `| ${data.linkedin}` : ""}</Text>
-        <View style={{ marginBottom: 10, fontWeight: 'bold', fontStyle: "italic" }} >
+        <View style={{ marginBottom: 5, fontWeight: 'bold', fontStyle: "italic" }} >
 
           {cleanSummary &&
 
@@ -289,12 +290,14 @@ const StyledCVDocument = ({ data }: { data: CVData }) => {
 
 
         {/* Compétences */}
-        <View style={styles.section}>
+        <View style={[styles.section, { marginBottom: 10 }]}>
           <View style={styles.titleContainer}>
             <Image src={skills.src} style={styles.titleIcon} />
 
 
-            <Text style={styles.title}> Compétences Clés</Text>
+            {/* <Text style={styles.title}> Compétences Clés</Text> */}
+            <Text style={styles.title}> Key Skills</Text>
+
           </View>
           <View style={styles.skillContainer}>
             <View style={styles.skillColumn}>
@@ -330,7 +333,8 @@ const StyledCVDocument = ({ data }: { data: CVData }) => {
             {/* <Image src={carriere.src} style={styles.titleIcon} /> */}
             <Image src={xp.src} style={styles.titleIcon} />
 
-            <Text style={styles.title}>Expériences Professionnelles</Text>
+            {/* <Text style={styles.title}>Expériences Professionnelles</Text> */}
+            <Text style={styles.title}>Professional Experience</Text>
           </View>
           {data.experiences.map((job, index) => (
             <View key={index} style={[styles.jobSection, job.layout ?? {}]}>
@@ -353,17 +357,18 @@ const StyledCVDocument = ({ data }: { data: CVData }) => {
                   ))}
                 </View>
               )}
-              {job.technologies && <Text style={[styles.text, ...[styles.italic]]}>Technologies & outils : {job.technologies.join(", ")}</Text>}
+              {job.technologies && <Text style={[styles.text, ...[styles.italic]]}>Stack : {job.technologies.join(", ")}</Text>}
               {job.reference && <Text style={[styles.text, ...[styles.italic]]}>Référence : {job.reference.map((ref) => `${ref.name} - (${ref.role})`).join(", ")}</Text>}
             </View>
           ))}
         </View>
 
         {/* Formation & Certifications */}
-        <View style={styles.section}>
+        <View style={[styles.section, { marginTop: 0 }]}>
           <View style={styles.titleContainer}>
             <Image src={certif.src} style={styles.titleIcon} />
-            <Text style={styles.title}> Formation & Certifications</Text>
+            {/* <Text style={styles.title}> Formation</Text> */}
+            <Text style={styles.title}> Education</Text>
           </View>
           {data.education.map((edu, index) => (
             <Text key={index} style={styles.text}>{edu.degree} - {edu.school} ({edu.year})</Text>
@@ -378,15 +383,23 @@ const StyledCVDocument = ({ data }: { data: CVData }) => {
         {data.showSide && data.projects && data.projects.length > 0 && (
 
 
-          <View style={styles.section}>
+          <View style={[styles.section, { marginBottom: 0 }]}>
             <View style={styles.titleContainer}>
               <Image src={ampoule.src} style={styles.titleIcon} />
-              <Text style={styles.title}>Initiatives produit</Text>
+              {/* <Text style={styles.title}>Initiatives produit</Text> */}
+              <Text style={styles.title}>Product Initiatives</Text>
+
+
             </View>
 
-            {data.projects.map((project, index) => (
+            <SideProjectCard project={data.projects[0]} />
+            <TimeTrackingCard />
+            <SideProjectCard project={data.projects[1]} />
+            <SideProjectCard project={data.projects[2]} />
+
+            {/* {data.projects.map((project, index) => (
               <SideProjectCard key={index} project={project} />
-            ))}
+            ))} */}
           </View>
         )}
 
@@ -421,10 +434,13 @@ const StyledCVDocument = ({ data }: { data: CVData }) => {
 
         {/* Hobbies & Explorations Personnelles */}
         {data.showHobbies && data.hobbies && data.hobbies.length > 0 && (
-          <View style={styles.section}>
+          <View style={[styles.section, { marginTop: 20 }]}>
             <View style={styles.titleContainer}>
               <Image src={hobby.src} style={styles.titleIcon} />
-              <Text style={styles.title}>Hobbies & Explorations Personnelles</Text>
+              {/* <Text style={styles.title}>Hobbies & Explorations Personnelles</Text> */}
+              <Text style={styles.title}>Hobbies & Personal Explorations</Text>
+
+
             </View>
             <View style={styles.hobbyGrid}>
               {data.hobbies.map((hobby, index) => (

@@ -70,6 +70,7 @@ export type Language = {
 export type Project = {
   title: string;
   description: string;
+  tasks?: string[];
   features?: string[];
   technologies?: string[];
   images?: { src: string; alt: string; display: 'desktop' | 'mobile' }[];
@@ -99,5 +100,6 @@ export type Contact = {
 export type Hobby = {
   name: string;
   description: string;
+  bullet?: string[];
   iconUrl?: string;
 };

@@ -65,6 +65,14 @@ const SideProjectCard = ({ project }: { project: Project }) => {
             </View>
           )
           }
+          {project.tasks && project.tasks.length > 0 && (
+            <View>
+
+              {project.tasks.map((f, i) => (
+                <Text key={i} style={[styles.text, styles.italic]}>→ {f}</Text>
+              ))}
+            </View>
+          )}
           {project.features && project.features.length > 0 && (
             <View>
               <Text style={[styles.text, styles.bold]}>Fonctionnalités :</Text>
